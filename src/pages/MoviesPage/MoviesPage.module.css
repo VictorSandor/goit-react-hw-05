@@ -1,0 +1,31 @@
+.prevNextBtnsWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .prevNextBtns {
+    margin-bottom: 36px;
+    color: #fafafa;
+    background-color: #3368f1;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+  }
+  
+  .prevNextBtns:hover,
+  .prevNextBtns:focus {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: #0a3dca;
+  }
+  
+  .prevNextBtns:disabled {
+    box-shadow: none;
+    background-color: #c0c0c0;
+    cursor: default;
+  }

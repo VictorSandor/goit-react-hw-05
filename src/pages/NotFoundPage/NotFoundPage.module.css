@@ -1,0 +1,19 @@
+.wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .notFoundText {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ff0000;
+    height: 50%;
+  }
+  
+  .returnLink {
+    font-size: 48px;
+    justify-self: flex-end;
+    height: 50%;
+  }

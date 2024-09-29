@@ -1,0 +1,122 @@
+.container {
+    padding: 0 32px;
+  }
+  
+  .goBackLink {
+    display: block;
+    width: 120px;
+    padding: 4px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 16px;
+    transition: box-shadow 250ms ease-in-out;
+  }
+  
+  .goBackLink:hover,
+  .goBackLink:focus {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .movieInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  .moviePoster {
+    width: 300px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 0;
+    padding: 0;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .movieInfo {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .poster {
+    object-fit: cover;
+    width: 300px;
+    height: 450px;
+  }
+  
+  .noPoster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 450px;
+    padding: 0;
+    background-color: #c0c0c0;
+  }
+  
+  .noPosterText {
+    transform: rotate(-57deg);
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .movieDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: left;
+    gap: 24px;
+    flex-basis: calc(100% - 324px);
+  }
+  
+  .movieTitle {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .userScore {
+    font-style: italic;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .movieOverview {
+    margin-bottom: 48px;
+  }
+  
+  .genresList {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .additionalInfo {
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    text-align: left;
+    padding: 16px 32px;
+    margin-bottom: 16px;
+  }
+  
+  .additionalInfo > ul {
+    margin-top: 16px;
+    list-style: disc;
+    padding-left: 48px;
+  }
+  
+  .additionalInfoLink {
+    color: #3368f1;
+  }
+  
+  .additionalInfoLink:hover,
+  .additionalInfoLink:focus {
+    color: #0a3dca;
+  }

@@ -1,0 +1,41 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 8px;
+    margin: 0 auto 16px;
+  }
+  
+  /* 2 on screen */
+  @media only screen and (min-width: 608px) {
+    .list {
+      width: 608px;
+    }
+  }
+  
+  /* 4 on screen */
+  @media only screen and (min-width: 1224px) {
+    .list {
+      width: 1224px;
+    }
+  }
+  
+  /* 5 on screen */
+  @media only screen and (min-width: 1532px) {
+    .list {
+      width: 1532px;
+    }
+  }
+  
+  /* 10 on screen (4K) */
+  @media only screen and (min-width: 3072px) {
+    .list {
+      width: 3072px;
+    }
+  }
+  
+  .listItem {
+    width: 300px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  }

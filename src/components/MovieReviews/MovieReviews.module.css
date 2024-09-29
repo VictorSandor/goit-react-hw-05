@@ -1,0 +1,21 @@
+.container {
+    padding: 0 32px;
+    margin-bottom: 16px;
+  }
+  
+  .reviewsList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .reviewsListItem {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .author {
+    font-style: italic;
+    font-weight: 500;
+  }
